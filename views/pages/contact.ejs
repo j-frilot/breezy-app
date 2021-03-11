@@ -1,0 +1,35 @@
+<%- include("../partials/header.ejs") %>
+
+
+    <section class="contact width" id="contact">
+        <div class="contact-info">
+            <h1 class="secondary">Contact Us</h1>
+            <h2>Feel free to keep in touch with us!</h2>
+            <ul class="contact-info-list">
+                <li><img src="img/globe.png" alt="">
+                    <p>000-000-0000</p>
+                </li>
+                <li><img src="img/globe.png" alt="">
+                    <p>email@email.com</p>
+                </li>
+                <li><img src="img/globe.png" alt="">
+                    <p> www.company.com</p>
+                </li>
+            </ul>
+        </div>
+        <form action="" class="contact-form">
+            <div class="contact-form-row">
+                <input type="text" class="name" placeholder="Your Name*" required>
+                <input type="tel" class="phone" placeholder="Phone Number*" required>
+                <input type="email" class="email-area" placeholder="Your email*" required>
+                <input type="subject" class="subject" placeholder="Subject">
+            </div>
+            <div class="contact-form-message">
+                <textarea name="message" class="textarea" placeholder="Message" required></textarea>
+            </div>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </section>
+    <hr>
+
+    <%- include("../partials/footer.ejs") %>
